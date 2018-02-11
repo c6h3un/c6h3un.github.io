@@ -12,6 +12,7 @@
 
 ## Steps
 1. Add routing table
+
 ```
 sudo vim /etc/iproute2/rt_tables
 ---
@@ -19,6 +20,7 @@ sudo vim /etc/iproute2/rt_tables
 ```
 
 2. Edit network configurations
+
 ```
 sudo vim /etc/network/interfaces
 ---
@@ -44,6 +46,7 @@ iface p1p2 inet static
 `sudo ifup p1p2`
 
 4. Check
+
 ```
 ip route list table wan2
 ip rule show
