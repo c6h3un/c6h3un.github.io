@@ -1,5 +1,4 @@
-#theme: jekyll-theme-cayman
-remote_theme: adueck/cayman-blog
+theme: jekyll-theme-cayman
 title: Logger 👣by👣
 description: “Tell me and I forget, teach me and I may remember, involve me and I learn.” ― Benjamin Franklin
 
