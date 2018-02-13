@@ -4,17 +4,18 @@
 - [Change username](system/ubuntu-change-username.md)
 - [Setting up two default gateway](system/ubuntu-two-default-gw.md)
 - [Server with vlan tags](system/ubuntu-vlan-tag.md)
+- [DHCP with custom dns](system/ubuntu-dhcp-change-dns.md)
 
 ## IT infra services
 - [Bind9 dns]
 - [Squid proxy]
 - [NFS]
 - [NFS-HA with pacemaker,corosync and drbd]
-- [Linux kvm]
+- [Linux kvm](system/linux-kvm.md)
 - [Smokeping]
 - [Zabbix server]
 - [Gogs git service]
-- [AD server]
+- [AD server](system/ad_server.md)
 
 
 
