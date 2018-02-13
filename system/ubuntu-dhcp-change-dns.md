@@ -1,6 +1,6 @@
-# Ubuntu DHCP with custom dns
-### 使用情境
-在做系統設定時，DHCP取得ip時所提供的 dns server並不合用，需要設定使用額外的dns server 以及自定義的search domain來提供內部服務使用。下面為設定範例。
+# Ubuntu DHCP with custom dns  
+
+Sometime we have our self hosted dns server and domain, we do not want to use the default dns server the dhcp server gave us.
 
 - server /etc/network/interfaces config  
 
@@ -9,7 +9,7 @@
   iface eth0 inet dhcp
   ```
 
-- server dhcp 取得的dns namserver  
+- server dhcp default dns namserver  
   `/etc/resolv.conf`  
 
   ```
@@ -17,22 +17,22 @@
   nameserver 8.8.4.4
   ```
 
-- 額外自行架設的dns server 資訊  
+- self hosted dns server info  
   - dns ip - **10.1.1.1**  
   - dns search domain - **helen.localnet**  
 
-### 設定方式  
-- 編輯`/etc/dhcp/dhclient.conf`檔案，新增下面設定  
+### Configuration Steps 
+- Edit `/etc/dhcp/dhclient.conf`, add the following
 
   ```
   supersede domain-name "helen.localnet";
   prepend domain-name-servers 10.1.1.1;
   ```
 
-- 重啟網卡  
+- Restart interface  
   `$ sudo ifdown eth0 && sudo ifup eth0`
 
-- 確認設定檔  
+- Confirm  
 
   ```
   $ cat /etc/resolv.conf
@@ -43,6 +43,6 @@
   search helen.localnet
   ```
 
-- 測試dns
-  `nslookup pc.helen.localnet`
-  `dig +short pc.helen.localnet`
+- Test  
+  `$ nslookup pc.helen.localnet`  
+  `$ dig +short pc.helen.localnet`  
