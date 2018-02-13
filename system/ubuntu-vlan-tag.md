@@ -9,7 +9,7 @@ A computer needs to have two vlan in one phisical port with the following infoma
 
 ### Steps
 - install vlan packages
-`sudo apt-get install vlan`
+`$ sudo apt-get install vlan`
 - edit `/etc/network/interfaces` file
 
 ```
@@ -34,5 +34,5 @@ vlan-raw-device eth0
 ```
 
 - bring up interfaces
-`sudo ifup eth0.80`  
-`sudo ifup eth0.1120`  
+`$ sudo ifup eth0.80`
+`$ sudo ifup eth0.1120`
