@@ -13,7 +13,10 @@
 - [NFS-HA with pacemaker,corosync and drbd]
 - [Linux kvm](system/linux-kvm.md)
 - [Smokeping]
-- [Zabbix server]
+- Zabbix server
+    - [Installation](system/zabbix-server-installation.md)
+    - Database backup
+    - Clean history
 - [Gogs git service]
 - [AD server](system/ad_server.md)
 
