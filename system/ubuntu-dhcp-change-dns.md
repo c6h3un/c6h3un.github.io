@@ -1,4 +1,4 @@
-# Ubuntu DHCP with custom dns  
+# Ubuntu DHCP with custom dns
 
 Sometime we have our self hosted dns server and domain, we do not want to use the default dns server the dhcp server gave us.
 
@@ -17,12 +17,12 @@ Sometime we have our self hosted dns server and domain, we do not want to use th
   nameserver 8.8.4.4
   ```
 
-- self hosted dns server info  
-  - dns ip - **10.1.1.1**  
-  - dns search domain - **helen.localnet**  
+- self hosted dns server info
+  - dns ip: 10.1.1.1
+  - dns search domain: helen.localnet
 
-## Configuration Steps 
-- Edit `/etc/dhcp/dhclient.conf`, add the following
+## Configuration Steps  
+- Edit `/etc/dhcp/dhclient.conf`, add the following  
 
   ```
   supersede domain-name "helen.localnet";
