@@ -21,7 +21,7 @@ Sometime we have our self hosted dns server and domain, we do not want to use th
   - dns ip - **10.1.1.1**  
   - dns search domain - **helen.localnet**  
 
-### Configuration Steps 
+## Configuration Steps 
 - Edit `/etc/dhcp/dhclient.conf`, add the following
 
   ```
