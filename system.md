@@ -5,7 +5,7 @@
 - [Setting up two default gateway](system/ubuntu-two-default-gw.md)
 - [Server with vlan tags](system/ubuntu-vlan-tag.md)
 - [DHCP with custom dns](system/ubuntu-dhcp-change-dns.md)
-
+- [user security](system/ubuntu-user-security.md)
 ## IT infra services
 - [Bind9 dns]
 - [Squid proxy]
