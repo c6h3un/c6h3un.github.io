@@ -6,6 +6,7 @@
 - [Server with vlan tags](system/ubuntu-vlan-tag.md)
 - [DHCP with custom dns](system/ubuntu-dhcp-change-dns.md)
 - [user security](system/ubuntu-user-security.md)
+
 ## IT infra services
 - [Bind9 dns]
 - [Squid proxy]
@@ -16,9 +17,6 @@
 - Zabbix server
     - [Installation](system/zabbix-server-installation.md)
     - Database backup
-    - Clean history
+    - [Clean history](system/zabbix-clean-history.md)
 - [Gogs git service]
 - [AD server](system/ad_server.md)
-
-
-
