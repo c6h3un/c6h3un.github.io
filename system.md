@@ -11,7 +11,7 @@
 - [Bind9 dns]
 - [Squid proxy]
 - [NFS]
-- [NFS-HA with pacemaker,corosync and drbd]
+- [NFS-HA with pacemaker,corosync and drbd](system/nfs-ha.md)
 - [Linux kvm](system/linux-kvm.md)
 - [Smokeping]
 - Zabbix server
