@@ -18,5 +18,6 @@
     - [Installation](system/zabbix-server-installation.md)
     - Database backup
     - [Clean history](system/zabbix-clean-history.md)
+    - [templates](system/zabbix-templates.md)
 - [Gogs git service]
 - [AD server](system/ad_server.md)
